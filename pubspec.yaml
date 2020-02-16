@@ -1,0 +1,133 @@
+name: credpal
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  redux: ^4.0.0
+  flutter_redux: ^0.6.0
+  time_machine: ^0.9.12
+  redux_thunk: ^0.3.0
+  http: ^0.12.0+2
+  get_it: ^3.1.0
+
+  google_sign_in: ^4.1.1
+  firebase_analytics: ^5.0.9
+  cloud_firestore: ^0.13.0+1
+  firebase_auth: ^0.15.2
+  firebase_storage: ^3.0.8
+  firebase_messaging: ^6.0.9
+  flutter_keyboard_visibility: ^0.7.0
+  shared_preferences: ^0.5.6
+  google_maps_flutter: ^0.5.21+8
+  google_maps_webservice: ^0.0.14
+  location: ^2.3.5
+
+  image_pickers: ^1.0.7+1
+  page_view_indicator: ^1.0.1
+  #  image_cropper: ^1.1.0
+  pull_to_refresh: ^1.5.6
+  timeago: ^2.0.10
+
+  cached_network_image: ^2.0.0-rc
+  image_picker: ^0.6.2+1
+  flutter_money_formatter: ^0.8.3
+  percent_indicator: ^2.1.1
+
+  package_info: ^0.4.0+3
+  ntp: ^1.0.3
+  country_pickers: ^1.0.2
+
+  file_picker: ^1.4.3+1
+  open_file: ^2.0.1+1
+  flutter_simple_video_player:
+  flutter_datetime_picker: 1.2.1
+
+  path: any
+  url_launcher: ^5.2.5
+  date_format: ^1.0.6
+  flutter_screenutil: ^0.7.0
+
+  chewie: ^0.9.7
+  flutter_local_notifications: ^0.8.4+3
+  photo_view: ^0.4.0
+  shimmer: ^1.0.1
+  date_range_picker: ^1.0.6
+  video_thumbnail: ^0.1.6
+  connectivity: ^0.4.5+2
+  flare_flutter: ^1.8.1
+  smart_text_view: ^0.1.0
+  ola_like_country_picker: ^0.1.1
+  faker: ^1.1.1
+  filesize: ^1.0.4
+  emoji_picker: ^0.0.2
+  flutter_staggered_grid_view: ^0.3.0
+  numberpicker: ^1.1.0
+  pin_entry_text_field: ^0.1.4
+  dio_http_cache: ^0.2.5
+  dio: ^3.0.8
+  flutter_icons: ^1.0.0+1
+  flutter_tindercard: ^0.1.8
+  flutter_reorderable_list: ^0.1.3
+  flutter_widgets: ^0.1.9
+  animated_background: ^1.0.5
+  flutter_range_slider: ^1.4.0
+#  google_fonts: ^0.3.3
+  virtual_keyboard: ^0.1.4
+  pin_code_fields: ^2.0.3
+  crypto: ^2.0.6
+  tripledes: ^2.1.0
+  ravepay: ^0.0.1+3
+
+
+
+dependency_overrides:
+  crypto: ^2.0.6
+  tripledes: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/products/
+    - assets/images/
+    - assets/bank/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-Regular.ttf

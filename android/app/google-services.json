@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186957982422",
+    "firebase_url": "https://credpal-53697.firebaseio.com",
+    "project_id": "credpal-53697",
+    "storage_bucket": "credpal-53697.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186957982422:android:815d2c65f9dc9108f83777",
+        "android_client_info": {
+          "package_name": "com.maugost.credpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186957982422-8rnc6uol4v27b81mtpp2ejt0kp76duqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maugost.credpal",
+            "certificate_hash": "028b7015c0abb601a18de4080444d2bf1cde005e"
+          }
+        },
+        {
+          "client_id": "186957982422-tksrgqn0f71nvphi1ihi5v88ihm4j17m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU5R6Zkt365giwFQjbTYsjumwYHJRka9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186957982422-tksrgqn0f71nvphi1ihi5v88ihm4j17m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186957982422-eguufpskoft2ueaao59qdg3ccviag2j1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maugost.credpal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
